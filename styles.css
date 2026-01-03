@@ -1,0 +1,91 @@
+body {
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
+
+#heading {
+  text-align: center;
+  color: white;
+}
+
+#mainContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+  gap: 100px;
+}
+
+/* Menu Items */
+#menuContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  width: 400px;
+  height: 600px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.underMenu {
+  text-decoration: underline;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+#buttonMenu {
+  display: flex;
+  flex-direction: column;
+  margin-left: 145px;
+  gap: 10px;
+  width: 100px;
+}
+
+.eraserResetContainer {
+  display: column;
+  gap: 20px;
+}
+
+button {
+  width: 110px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px;
+  font-size: 20px;
+  background-color: white;
+  color: #2c3e50;
+}
+
+button:hover {
+  background-color: rgba(221, 221, 221, 0.1);
+  color: white;
+  transform: scale(1.1);
+}
+
+button:active {
+  color: rgba(44, 62, 80, 0.5);
+  color: rgb(255, 255, 255, 0.5);
+}
+
+#container {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  border: 15px double black;
+  width: 960px;
+  height: 1000px;
+}
+
+/* #container > div {
+  /* height: 1000; */
+/* } */
+.white {
+  background-color: white;
+}
+
+.Opacity {
+  opacity: 1;
+}
