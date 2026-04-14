@@ -1,5 +1,7 @@
 # Etch-a-Sketch
 
+![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/axmsj/Etch-a-Sketch/badge)
+
 A browser-based sketchpad inspired by the classic Etch A Sketch toy, built with vanilla HTML, CSS, and JavaScript. Hover over the grid to draw.
 
 ## Demo
